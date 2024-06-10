@@ -1,0 +1,100 @@
+/* using tag */
+ h4{  
+    background-color: aquamarine;
+} 
+
+/* using id */
+#one{       
+    background-color: blanchedalmond;
+}
+
+
+/* using class */
+
+ .two{ background-color: chartreuse;}  
+ a{background-color: blanchedalmond;}   //tag
+
+a[href="http://google.com"]{         
+    background-color: beige;
+}
+
+/* using first word of attribute */
+a[href^="http"]{         
+    background-color: lightcoral;
+}
+
+
+/* using last word of attribute */
+ a[href$="com"]{         
+    background-color: greenyellow;
+} 
+
+
+/* using any word of attribute */
+a[href*="file"]{         
+    background-color: turquoise;
+}
+
+
+/* star selector */
+
+
+
+
+/* descendent combinator */
+div p{background-color: lightblue}
+span p{background-color: lightslategray;}
+
+/* order list direct child selectors */
+ol >li{
+    border: 2px solid gray;
+
+}
+
+
+
+/* ADDVANCE SELECTOR */
+ div{
+    background-color: aquamarine;
+    height: 250px;
+    width: 250px;
+    transition: 2s;
+}
+/*div:hover{
+    /* background-color: lightpink; */
+  /* background: linear-gradient(lightblue, lightpink, lightslategray);
+    border-radius: 50%;}
+ */
+
+/* SELECTING A PERTICULAR PART */
+li:nth-of-type(2){
+    background-color: lightsteelblue;
+}
+
+
+/* ABSOLUTE TYPE */
+#large{
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+}
+
+/* RELATIVE TYPE */
+#small{
+    height:50% ;
+    width:50% ;
+    background-color: lightskyblue;
+}
+
+#vp{
+    height: 10vh;
+    width: 10vw;
+    background-color: lightgrey;
+}
+li{
+    /* in em the child size is related to current parent */
+    /* font-size:2em ; */
+    /* in rem the child size is related to body tag whole by 
+    default size is 16px */
+    font-size:2rem ; 
+}
