@@ -1,0 +1,51 @@
+.parent{
+    border: 4px solid greenyellow;
+    height: 600px;
+    /* width: 100%; */
+    display: flex; /* it makes the content(object flexible to move anywhere we want)*/
+    /* flex-direction: row; //it is by default */
+   /* flex-direction: column;  */
+   /* flex-direction: column-reverse; */
+   /* flex-direction: row-reverse; */
+   flex-wrap: wrap;/*with the changing size of screen the content will adjust (enter next line)*/
+   
+   justify-content: space-around;
+   /* space around -space on either side of obj is equal 
+   (at start and end the space is half of that in between) */
+
+   justify-content: space-between;
+   /* space between - space in between object will be same */
+   
+   justify-content: space-evenly;
+  /* space around -space on either side of obj is equal
+    (at start and end the space is equal) */ 
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+
+}
+div{
+    /* background-color: blanchedalmond; */
+    transition: 2s;
+    
+}
+
+div :hover{
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+#one{
+    background-color: lightgoldenrodyellow;
+}
+#two{
+    background-color:lightcoral;
+}
+#three{
+    background-color: lightgrey;
+}
+#four{
+    background-color: lightpink;
+}

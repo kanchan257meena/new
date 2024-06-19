@@ -1,0 +1,38 @@
+#parent{
+    height: 30px;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    color: aliceblue;/*used to give colour to the text*/
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    background-color:orangered;
+    border-radius: 10%;
+    /* height: 20px; */
+}
+.center{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+a{
+    color: red;
+    padding-left: 10px;
+}
+#body{
+    height: 600px;
+    width: 100%;
+}
+#footer{
+    /* align-self: self-end; */
+    height: 20px;
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+     /* padding-left: 360px;  */
+}

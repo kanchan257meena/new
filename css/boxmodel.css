@@ -1,0 +1,204 @@
+
+/*div{
+    border: 10px solid lightcoral;
+    background-color: aliceblue;
+    height: 100px;
+    width: 100px;
+    padding: 25px; /* padding btw boder amd content (inside the box) */
+    margin: 50px; /* margin = between two elements (out side the box)*/  
+transition: 2s;
+
+}*/
+
+/* div:hover{
+    background-color: paleturquoise;
+    border-radius: 50%; }*/
+
+
+span{
+    background-color: lightgreen;
+    height: 70px;
+    width: 100%;
+    display: block;
+    margin: 50px;
+     display:inline-block block; }
+    /* visibility: hidden; this will hide the code but it will still occupy space */
+    
+   /* display: none; it will completely remove element from the screen */
+/* block - will make span to work and use prop like div */
+/* inline- block -will allow span to use height and width prop only */
+
+
+
+
+/* position  */
+.one {
+    background-color: lightcoral;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    /* position: fixed; the object will always be fixed on screen //even if you scroll, and everything else will move */ */
+    /* position: static; it will make the object fixed permanently */
+}
+.two{
+    background-color:lightpink ;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+     /* position: absolute;  */
+    /* the object will come on a different screen just above the og , the properties now will be relative to the screen; */
+   /* top: 500px; */
+}
+.three{
+    background-color: lightsalmon;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+     position: relative; 
+    top: 15px;
+}
+.t{
+    border: 8px solid greenyellow;
+    height: 1000px;
+    padding: 50px;
+    width: 500px;
+}
+.o{
+    border: 5px solid lightcoral;
+    background-color: lightcyan;
+    width: 100px;
+    padding: 10px;
+    position: sticky;
+    top: 40px;
+}
+
+.parent{
+    background-color: lightcyan;
+    height: 200px;
+    width: 200px;
+    position: relative;
+   
+}
+.child{
+    background-color: rgba(122, 16, 215, 0.255);
+    height: 50px;
+    width: 50px;
+     position: absolute; 
+    /* position: relative; */
+    top:15px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

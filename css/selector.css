@@ -47,7 +47,7 @@ span p{background-color: lightslategray;}
 
 /* order list direct child selectors */
 ol >li{
-    border: 2px solid gray;
+    border: 5px solid gray;
 
 }
 

@@ -6,10 +6,21 @@ class HelloWorld {
         System.out.println("enter roll number: ");
         int n=sc.nextInt();
      }
+     
+    
       public static void name( ){
           Scanner sc=new Scanner(System.in);
         System.out.println("enter name: ");
         String a=sc.nextLine();
+     }
+       public static void attendance( ){
+        Scanner sc=new Scanner(System.in);
+       // System.out.println("total number of classes: ");
+       // int y=sc.nextInt();
+        System.out.println("total number of classes attended out of 400: ");
+        float z=sc.nextInt();
+        System.out.println("your attendence is: "+(z/400)*100+"%");
+    
      }
      
     public static void inputSubjectsAndMarks(){ 
@@ -30,20 +41,25 @@ class HelloWorld {
     
         System.out.println("Subjects and Marks:");
         for (int i = 0; i < size; i++) {
-            System.out.println(subjects[i] + ": " + marks[i]);
-         
+            System.out.println(subjects[i] + ": " + marks[i]);}
             
-    }}
+            float avg =0f;
+            
+            for (int j = 0; j < size; j++) {
+                
+             avg =avg+ marks[j];}
+            
+           System.out.println("your percentage is"+(avg/size)) ;
+    }
     
 public static void main(String[] args){
+    Scanner sc =new Scanner(System.in);
+    System.out.println("enter the number of students: ");
+    int std=sc.nextInt();
+    for(int i=1;i<=std;i++){
     rollno();
     name();
-    inputSubjectsAndMarks();
-    //displaySubjectsAndMarks();
-    
-    
+    attendance();
+    inputSubjectsAndMarks();}
 }
-
-
-     
 }
