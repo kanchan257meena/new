@@ -7,7 +7,7 @@
    /* flex-direction: column;  */
    /* flex-direction: column-reverse; */
    /* flex-direction: row-reverse; */
-   flex-wrap: wrap;/*with the changing size of screen the content will adjust (enter next line)*/
+   flex-wrap: wrap; /*with the changing size of screen the content will adjust (enter next line)*/
    
    justify-content: space-around;
    /* space around -space on either side of obj is equal 
@@ -17,8 +17,13 @@
    /* space between - space in between object will be same */
    
    justify-content: space-evenly;
+
+   /*the spacing will be horizontal(along main axis)*/
   /* space around -space on either side of obj is equal
     (at start and end the space is equal) */ 
+
+    align-items: center;/*the spacing will be vertical(along cross axis)*/
+    align-content: space-between;
 }
 
 .child{
@@ -27,25 +32,33 @@
     border: 1px solid white;
 
 }
-div{
-    /* background-color: blanchedalmond; */
+/* div{
+    background-color: blanchedalmond; 
     transition: 2s;
     
 }
 
 div :hover{
     background-color: antiquewhite;
-    border-radius: 10px;
-}
+    border-radius: 10px; */
+
 #one{
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(55, 239, 144);
+    flex-grow: 0;/*(width will grow double but only relative to other with length 1)*/
 }
 #two{
     background-color:lightcoral;
+    flex-shrink: 0; /* while shrinking ,it will shrink double then other boxes */
 }
 #three{
     background-color: lightgrey;
+    flex-basis:xyz ;/*absolute property for width*/
 }
 #four{
     background-color: lightpink;
+}
+/* margin:auto; content will be in between*/
+p{
+    margin: auto;
+    max-width :400px;
 }
