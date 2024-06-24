@@ -1,0 +1,45 @@
+p{
+    height: 300px;
+    width: 300px;
+    background-color: lightgreen;
+
+    transition: 2s;/*works for transition in both sides*/
+    /* transition-property:border-radius ;  this is used for applying transition on specific property */
+}
+p:hover{
+    /* transition: 2s; only transition will take time at starting , later it will change quickly */
+    height: 200px;
+    width: 200px;
+    background-color:greenyellow ;
+    border-radius: 20%;
+}
+
+#parent{
+    border: 3px solid black;
+    height: 800px;
+    width: 100%;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    transition: 2s;
+}
+#one{
+    background-color: lightgreen;
+    transition-timing-function: linear;/*linear speed*/
+}
+#two{
+    background-color: lightcoral;
+    transition-timing-function: ease-in;/*acceleration changes but all the objects will reach on same time*/
+}
+#three{
+    background-color: lightpink;
+    transition-timing-function: ease-out;
+}
+#four{
+    background-color: lightgrey;
+    transition-timing-function: ease-in-out;
+}
+#parent:hover .child{
+margin-left: 630px;
+}
