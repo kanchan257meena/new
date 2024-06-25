@@ -1,0 +1,107 @@
+#navbar{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    color: white;
+    background-color: #000000;
+     
+     
+     /* flex-wrap: wrap;  */
+    align-items: center;
+}
+.nav{
+    width: 70px;
+}
+
+@media(max-width:480px){
+#navbar{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+} 
+
+
+    
+}
+#round{
+    height: 200px;
+    width: 200px;
+    border-radius: 80%;
+}
+#center{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+#skillllss{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skill{
+    
+    display: flex;
+    margin: 2rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.progress-bar{
+    background-color:rgba(228, 219, 219, 0.36);
+    border-radius: 10px;
+    width: 250px;
+    height: 10px;
+}
+.bar{
+    background-color: green;
+    height: 10px;
+    /* width: 80%; */
+    border-radius: 10px;
+}
+.project{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    
+}
+input{
+
+    align-content: center;
+    justify-content: center; 
+    width: 100%;
+max-width:400px ;    
+}
+button{
+    align-content: center;
+    justify-content: center; 
+    width: 100%;
+max-width:400px ;    
+}
+
+body{
+    font: bold;
+    font-style: normal;
+}
+.write{
+    font-size: 18;
+}
+#end{
+    background-color: black;
+    color: white;
+    height:40px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-around; */
+    
+}
+a{
+    width: 90px;
+}
