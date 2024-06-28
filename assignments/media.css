@@ -8,9 +8,10 @@
      
      /* flex-wrap: wrap;  */
     align-items: center;
+    gap: 40px;
 }
 .nav{
-    width: 70px;
+    /* width: 70px; */
 }
 
 @media(max-width:480px){
@@ -104,4 +105,6 @@ body{
 }
 a{
     width: 90px;
+    color: white;
+    text-decoration: none;
 }

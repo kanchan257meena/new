@@ -31,6 +31,9 @@
     width: 100px;
     border: 1px solid white;
 
+
+
+    gap: 40px;/*this will give gap between two objects*/
 }
 /* div{
     background-color: blanchedalmond; 

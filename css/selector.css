@@ -12,7 +12,11 @@
 /* using class */
 
  .two{ background-color: chartreuse;}  
- a{background-color: blanchedalmond;}   //tag
+ a{background-color: blanchedalmond;
+
+
+    text-decoration: none;/*removes the underline*/
+}}   //tag
 
 a[href="http://google.com"]{         
     background-color: beige;
