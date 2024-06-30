@@ -33,7 +33,8 @@ img{
     transform-style:preserve-3d ;
 }
 #parent:hover{
-    transform: rotateY(180deg);
+    transform:translateY(40px) rotateY(180deg) scale(1.5);/*write in one line 
+    to use two properties simulntaneously*/
 
 }
 body{

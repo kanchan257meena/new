@@ -1,0 +1,25 @@
+p{
+    height: 100px;
+    width: 100px;
+background: linear-gradient(violet,indigo,blue,green,yellow,orange,red);
+border-radius: 60% ;
+animation-name: circle;
+animation-duration: 1000ms;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in;
+border: 2px solid black;
+animation-direction: alternate;
+
+margin: 3px auto;
+
+}
+@keyframes circle{
+    100%{transform:translateY(600px) rotate(270deg);
+        
+    }
+    0%{transform:translateY(0px)
+}
+
+
+
+}

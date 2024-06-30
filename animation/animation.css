@@ -1,0 +1,49 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+   /* animation-name: ok;
+    animation-duration: 5s;*/
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    /* animation-delay: 2s; */
+}
+div:hover{
+    animation-name: ok;
+    animation-duration: 5s;
+}
+@keyframes ok{
+    0%{/*% of time*/
+        background-color: cadetblue;
+        border-radius: 30%;
+    }
+    10%{
+        background-color: lightskyblue;
+        border-radius: 50%;
+    }
+    25%{
+        background-color: lightgray;
+        border-radius: 60%;
+        height: 25vh;
+        width: 25vw;
+    }
+    50%{
+        background-color: lightpink;
+        border-radius: 70%;
+        height: 50vh;
+        width: 50vw;
+    }
+    75%{
+        background-color: lightgreen;
+        border-radius: 90%;
+        height: 75vh;
+        width: 75vw;
+    }
+    100%{
+        background-color:lightgoldenrodyellow;
+        border-radius: 100%;
+        height: 100vh;
+        width: 100vw;
+    }
+
+}
